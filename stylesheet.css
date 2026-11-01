@@ -1,0 +1,369 @@
+#basement-bg {
+    background-image: url(basement.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#floor2-bg {
+    background-image: url(2nd%20floor.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#floor1-bg {
+    background-image: url(First%20Floor.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+#index-bg {
+    background-image: url(homepage.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.font-scanline-body {
+    font-family: "Workbench";
+    font-size: medium;
+  text-align: justify
+}
+.font-scanline-header {
+    font-family: "Workbench";
+    font-size: x-large;
+    text-align: center;
+}
+.font-scanline-button {
+    font-family: "Workbench";
+    font-size: small;
+    text-align: center;
+}
+.blink {
+    font-family: "Workbench";
+    font-size: 250%;
+    color: blue;
+    text-decoration-line: underline overline;
+    text-decoration-style: dotted;
+    text-align: center;
+    text-shadow: 2px 2px red;
+    animation-name: LasVegas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes LasVegas {
+        0% {opacity: 0;}
+        50% {opacity: 0;}
+        51% {opacity: 100;}
+        100% {opacity: 100;}
+}
+.alpha-list {
+  list-style-type: lower-alpha;
+  font-size: 0.9em;
+}
+.textbox {
+  background-color: rgba(157, 163, 166, 0.8);
+  padding: 0.5em;
+  border: ridge
+}
+.textbox:hover {
+  background-color: rgba(157, 163, 166, 0.8);
+  opacity: 0.2;
+  padding: 0.5em;
+  border: ridge
+}
+.progress-button {
+  background-color: #9DA3A6;
+  border: outset;
+  font-family: "Workbench";
+  font-size: large;
+  color: blue;
+  text-shadow: 1px 1px 1px red;
+  padding: 0.5em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.progress-button:hover {
+  background-color: #9DA3A6;
+  border: inset;
+  font-family: "Workbench";
+  font-size: x-large;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  padding: 0.5em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.popup {
+    background-color: #9DA3A6;
+    padding: 1%;
+    margin:0 20% 1%;
+    border-style: solid outset outset outset;
+    border-width: 15px medium medium medium;
+    border-top-color: blue;
+    box-shadow: 2px 2px 5px black;   
+}
+.popup:hover {
+    background-color: #9DA3A6;
+    padding: 1%;
+    margin:0 20% 1%;
+    border-style: solid outset outset outset;
+    border-width: 15px medium medium medium;
+    border-top-color: blue;
+    box-shadow: 2px 2px 5px black;   
+    opacity: 10%;
+}
+.far-right {
+  position: relative;
+  left: 20vw;
+}
+.far-left {
+  position: relative;
+  right: 20vw;
+}
+.popup-inner-box {
+  background-color: white;
+  padding: 1ch 0 1ch 0;
+  position: relative;
+}
+.popup-inner-box:hover {
+  background-color: white;
+  padding: 1ch 0 1ch 0;
+  position: relative;
+  opacity: 10%;
+}
+#welcome-home {
+  background-color: #9DA3A6;
+  padding: 1%;
+  border-style: solid outset outset outset;
+  border-width: 15px medium medium medium;
+  border-top-color: blue;
+  box-shadow: 2px 2px 5px black;   
+  margin: 0 20% 10% 20%;
+  position: relative;
+  right: 20vw;
+}
+#welcome-home:hover {
+  background-color: #9DA3A6;
+  padding: 1%;
+  border-style: solid outset outset outset;
+  border-width: 15px medium medium medium;
+  border-top-color: blue;
+  box-shadow: 15px 15px 5px red;   
+  margin: 0 20% 10% 20%;
+  position: relative;
+  right: 20vw;
+}
+#welcome-home-inner {
+  background-color: white;
+  padding: 1ch 0 1ch 0;
+  position: relative;
+}
+#welcome-home-inner:hover {
+  background-image: url(Wallpaper.jpg);
+  background-size: 200%;
+  background-position: center;
+  padding: 1ch 0 1ch 0;
+  position: relative;
+}
+.nav-button {
+  font-family: "Workbench";
+  font-size: medium;
+  color: blue;
+  text-shadow: 1px 1px 1px red;
+  padding: 0.5em;
+}
+.nav-button:hover {
+  font-family: "Workbench";
+  font-size: medium;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  padding: 0.5em;
+}
+.nav-bar {
+  list-style-type: none;
+  position: fixed;
+  right: -3vw;
+  top: -6vh;
+  opacity: 40%;
+  scale: 0.8;
+}
+.nav-bar:hover {
+  list-style-type: none;
+  position: fixed;
+  right: -3vw;
+  top: -6vh;
+  opacity: 100%;
+  scale: 0.8;
+}
+#floor2-nav {
+  border-bottom: 40px solid #594F4A;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  background-size: contain;
+  height: 0;
+  width: 90px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
+} 
+#floor1-nav {
+  width: 140px;
+  height: 50px;
+  background-image: url(Floor1Nav.jpg);
+  background-size: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-align: center;
+}
+#outside-nav {
+  height: 75px;
+  width: 200px;
+  background-image: url(OutsideNav.jpg);
+  background-size: contain;
+  border-radius: 50%;
+  position: relative;
+  right: 30px;
+  bottom: 100px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+
+}
+#resources-nav {
+  height: 100px;
+  width: 200px;
+  background-image: url(roots.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  right:30px;
+  top: 75px;
+  display: flex;
+  justify-content: center;
+
+}
+#basement-nav {
+  width: 140px;
+  height: 35px;
+  background-image: url(BasementNav.jpg);
+  background-size: contain;
+  position: relative;
+  bottom: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-align: center;   
+}
+
+
+.resources-text {
+  font-family: "Workbench";
+  font-size: xx-small;
+  position: relative;
+  top: 200px;
+  
+  
+}
+/*
+Source - https://stackoverflow.com/a/61857586
+Posted by David Mann, modified by community. See post 'Timeline' for change history
+Retrieved 2026-10-28, License - CC BY-SA 4.0
+*/
+.lightbox {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #000A;
+}
+
+#modal-toggle:checked + .lightbox {
+  display: flex;
+}
+
+.lightbox > label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+table {
+  background-image: linear-gradient(to bottom, #9DA3A6, pink, red);
+}
+th, td {
+  border:groove;
+  
+}
+.footer {
+  font-family: "Workbench";
+  font-size: xx-small;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.modal {
+  z-index: 1;
+}
+
+/* For looks only */
+
+.modal-trigger {
+  margin-top: 50px;
+}
+
+.modal,
+.modal-trigger {
+    display: inline-block;
+    background-color: #9DA3A6;
+    border: outset;
+    padding: 1rem;
+    text-align: center;
+}
+
+.modal,
+.modal-trigger:hover {
+    display: inline-block;
+    background-color: #9DA3A6;
+    background-repeat: repeat;
+    background-size: contain;
+    border: inset;
+    padding: 1rem;
+    text-align: justify;
+}
+
+.modal *:first-child {
+  margin-top: 0;
+}
+
+.modal *:last-child {
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #9DA3A6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#modal-toggle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+    opacity: 0%;
+}
+/*
+End sourced code
+*/
