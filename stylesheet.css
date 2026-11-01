@@ -270,6 +270,22 @@
   
   
 }
+
+table {
+  background-image: linear-gradient(to bottom, #9DA3A6, pink, red);
+}
+th, td {
+  border:groove;
+  
+}
+#footer {
+  font-family: "Workbench";
+  font-size: x-small;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(300, 300, 300, 0.5)
+}
 /*
 Source - https://stackoverflow.com/a/61857586
 Posted by David Mann, modified by community. See post 'Timeline' for change history
@@ -297,20 +313,6 @@ Retrieved 2026-10-28, License - CC BY-SA 4.0
   right: 0;
   bottom: 0;
   left: 0;
-}
-table {
-  background-image: linear-gradient(to bottom, #9DA3A6, pink, red);
-}
-th, td {
-  border:groove;
-  
-}
-.footer {
-  font-family: "Workbench";
-  font-size: xx-small;
-  position: fixed;
-  left: 0;
-  bottom: 0;
 }
 .modal {
   z-index: 1;
